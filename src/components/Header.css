@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    font-size: 24px;
+}
+
+.header_ul {
+    padding-top: 15px;
+    list-style: none;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.header_ul.menu-open {
+    opacity: 1;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

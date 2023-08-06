@@ -1,0 +1,70 @@
+/* styles.css */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  margin: 0px;
+  padding: 0px;
+  text-indent: 0px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-indent: 0px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-indent: 0px;
+  text-align: center;
+}
+
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-indent: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+}
+
+li {
+  margin-bottom: 10px;
+}
