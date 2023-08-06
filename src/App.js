@@ -1,22 +1,3 @@
-// Firebase App (the core Firebase SDK) is always required and must be listed first
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyCkIx6MIJpWvlztx9q18s3o8xui0XSLguE",
-  authDomain: "dynamicwiki-2614d.firebaseapp.com",
-  projectId: "dynamicwiki-2614d",
-  storageBucket: "dynamicwiki-2614d.appspot.com",
-  messagingSenderId: "476145826078",
-  appId: "1:476145826078:web:3d8357472482203441710f",
-  measurementId: "G-F4FVY2K3JH"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-// React imports
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './styles.css';
