@@ -1,23 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.97bdb883.css",
-    "main.js": "/static/js/main.309bf18d.js",
+    "main.js": "/static/js/main.540e1691.js",
     "static/media/Friends.jpg": "/static/media/Friends.b6e734080793049223b7.jpg",
-    "static/media/DynamicWiki.png": "/static/media/DynamicWiki.35ee10d64f10dedcda83.png",
     "static/media/TheOffice.jpg": "/static/media/TheOffice.ece93f3390c4f6cfd510.jpg",
     "static/media/TheSopranos.jpg": "/static/media/TheSopranos.cc72590045a7cd09de98.jpg",
-    "static/media/Fillboard.png": "/static/media/Fillboard.032aaee132baf10f813c.png",
     "static/media/OnePiece.jpg": "/static/media/OnePiece.792a0bb952440aee1e2d.jpg",
     "static/media/JujutsuKaisen.jpg": "/static/media/JujutsuKaisen.1a8bfa736eb8f444d8d0.jpg",
-    "static/media/ian_flower.jpg": "/static/media/ian_flower.d20cb6cf212838e7e503.jpg",
     "static/media/gray.png": "/static/media/gray.c5496dee2014b3768cb1.png",
-    "static/media/UJM.png": "/static/media/UJM.e7970f07fe184675eb7a.png",
     "index.html": "/index.html",
     "main.97bdb883.css.map": "/static/css/main.97bdb883.css.map",
-    "main.309bf18d.js.map": "/static/js/main.309bf18d.js.map"
+    "main.540e1691.js.map": "/static/js/main.540e1691.js.map"
   },
   "entrypoints": [
     "static/css/main.97bdb883.css",
-    "static/js/main.309bf18d.js"
+    "static/js/main.540e1691.js"
   ]
 }

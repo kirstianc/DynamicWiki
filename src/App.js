@@ -8,9 +8,8 @@ import Footer from './components/Footer';
 
 // import pages
 import Home from './routes/Home';
-import Projects from './routes/Projects';
-import Contact from './routes/Contact';
 import DynamicWiki from './routes/DynamicWiki';
+import Contact from './routes/Contact';
 
 function App() {
   return (
@@ -20,9 +19,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/DynamicWiki" element={<DynamicWiki />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<h1>404: Page Not Found</h1>} />
         </Routes>
       </div>

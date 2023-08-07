@@ -1,19 +1,18 @@
 import React from 'react';
-import ian_flower from '../assets/images/ian_flower.jpg';
 
 function Home() {
     return (
         <div>
-            <title>Ian Chavez, Computer Science major</title>
-            <h1>Hello!</h1>
+            <h1>Welcome to the Dynamic Wikipedia!</h1>
             <p>
-                My name is Ian Chavez. I am a <strong>Computer Science major </strong>at{' '} <strong>San Jose State University.</strong>
-                <br />
-                I am a second generation Filipino located in California, United States.
+                My name is Ian Chavez. I am a <strong>Computer Science major </strong>at{' '} <strong>San Jose State University.</strong> How many times have you accidentally spoiled a character's death when you were searching up some basic information about them...?
             </p>
-            <div class ="image-container">
-                <img src={ian_flower} alt="Ian Chavez in a flower field" />
-            </div>
+            <br />
+            <h2>Mission of this site...</h2>
+            <p>
+                This site is to provide a wiki that changes information based on what episode you are on. This prevents spoilers and other information from ruining YOUR experience!
+            </p>
+            <br />
         </div>
     );
 }
